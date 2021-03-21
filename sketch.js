@@ -36,5 +36,10 @@ function draw(){
   if(gameState === 1){
     clear();
     game.play();
+   
   }
+  if(gameState===2){
+  console.log("Game Ended")
+  }
+    
 }
